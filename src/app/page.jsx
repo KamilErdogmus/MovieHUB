@@ -12,11 +12,13 @@ const page = async ({ searchParams }) => {
 
   const data = await res.json();
   return (
-    <div className="flex items-center justify-center gap-5 flex-wrap">
-      {data?.results?.map((item) => (
-        <Movies key={item.id} item={item} />
-      ))}
-    </div>
+    <Suspense>
+      <div className="flex items-center justify-center gap-5 flex-wrap">
+        {data?.results?.map((item) => (
+          <Movies key={item.id} item={item} />
+        ))}
+      </div>
+    </Suspense>
   );
 };
 
