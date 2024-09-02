@@ -31,10 +31,6 @@ A modern movie application built with Next.js. It allows users to browse, search
 
 ![ ](./public/MovieHUB.gif)
 
-## Deployment
-
-The project is deployed and can be accessed [here](). For the project to run smoothly, please follow the installation steps below to set it up locally.The project may behave differently across different browsers.
-
 ## Installation
 
 To run the project locally, follow these steps:
