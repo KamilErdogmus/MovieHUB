@@ -59,4 +59,4 @@ npm install
 npm  npm run dev
 ```
 
-5. Open your web browser and visit http://localhost:5173 to view the application.
+5. Open your web browser and visit http://localhost:3000 to view the application.
