@@ -14,7 +14,7 @@ const Tabs = () => {
   ];
 
   return (
-    <Suspense>
+    <Suspense fallback={<div>Loading...</div>}>
       <div className="py-5 m-5 bg-gray-100 dark:bg-gray-900 flex justify-center items-center gap-7">
         {tabs.map((item) => (
           <Link
